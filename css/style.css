@@ -308,7 +308,8 @@ button {
 }
 
 .header_bg {
-    background: #1f1f1f;
+    /* background: #1f1f1f; */
+    background: #ffffff;
 }
 
 .bg-light {
@@ -328,7 +329,8 @@ button {
     padding-right: 10px;
     padding-left: 10px;
     font-size: 18px;
-    color: #fcfefe;
+    /* color: #fcfefe; */
+    color: #1f1f1f;
     text-transform: uppercase;
 }
 
