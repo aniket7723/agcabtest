@@ -1,0 +1,32 @@
+.marquee {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .marquee-content {
+    display: inline-block;
+    animation: marquee-animation 25s linear infinite;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #007bff; /* Bootstrap primary color */
+    padding: 10px 20px;
+    border-radius: 50px;
+  }
+
+  @keyframes marquee-animation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  /* <div class="marquee">
+      <div class="marquee-content">
+        This is a beautiful marquee effect created with Bootstrap and CSS!
+      </div>
+    </div> */
